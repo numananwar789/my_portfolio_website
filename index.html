@@ -274,8 +274,12 @@
       <div class="row">
 
         <div class="col-lg-12 col-12">
-          <p class="copyright-text text-center">Copyright &copy; 2022 <a href="index.html"
-              style="cursor: pointer;">Numan Anwar</a>. All rights reserved</p>
+          <p class="copyright-text text-center">Copyright &copy; 
+            <?php
+            $currentYear = date('Y');
+            echo "Current Year: $currentYear";
+            ?> 
+        <a href="index.html" style="cursor: pointer;">Numan Anwar</a>. All rights reserved</p>
         </div>
 
       </div>
